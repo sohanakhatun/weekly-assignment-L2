@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.gray-line {
+    height: 1.2px;
+    width: 100vw;
+    background-color: #c0c0c0;
+}
+
+.product-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#product-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+input{
+    border-radius: 4px;
+    padding: 2px;
+}
+.product-card img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5px;
+}
+
+.product-info {
+    display: flex;
+    margin-top: 0.5rem;
+    padding: 4px;
+    justify-content: space-between;
+}
+
+.remove-btn {
+    padding: 24px 24px;
+    border: none;
+    border-radius: 50%;
+}
+
+.remove-btn:hover {
+    background-color: #e40b03;
+    transition: all;
+    color: white;
+}
+
+.add-btn {
+    padding: 14px 14px;
+    border: none;
+    border-radius: 50%;
+}
+
+.add-btn:hover {
+    background-color: green;
+    transition: all;
+    color: white;
+}
+
+.product-info button:hover {
+    cursor: pointer;
+}
+
+.cart-header {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    gap: 1rem;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+select {
+    background-color: transparent;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.cart-header button {
+    border: none;
+    padding: 9px;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+#cart-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3px;
+}
+
+.price {
+    display: flex;
+    width: 100vw;
+    margin-bottom: 3px;
+    justify-content: space-around;
+}
+
+.price p {
+    font-weight: 700;
+}
