@@ -59,3 +59,5 @@ iii.calculate the total price, average price of all items in cart and render the
     iv. render the cart.
 
 16. END.
+
+LIVE: https://whimsical-kelpie-58dfcc.netlify.app/
